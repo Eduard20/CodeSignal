@@ -1,0 +1,18 @@
+{
+  "name": "codesignal",
+  "version": "1.0.0",
+  "description": "CodeSignal solutions for Arcade Intro",
+  "main": "index.ts",
+  "author": "Eduard Simonyan",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc index.ts && NODE_PATH=./dist node index.js"
+  },
+  "devDependencies": {
+    "tslint": "5.18.0",
+    "tslint-config-prettier": "1.17.0",
+    "tslint-config-security": "1.13.0",
+    "tslint-eslint-rules": "5.4.0",
+    "typescript": "3.5.1"
+  }
+}
