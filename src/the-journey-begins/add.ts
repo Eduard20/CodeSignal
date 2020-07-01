@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * add
  * @param param1

@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * Section 2: Edge Of The Ocean
  */

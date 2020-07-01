@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * getCenturyFromYear
  * @param year

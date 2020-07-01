@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * matrixElementsSum
  * @param matrix

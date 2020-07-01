@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * allLongestStrings
  * @param inputArray

@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * commonCharacterCount
  * @param {string} s1

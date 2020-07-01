@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * makeArrayConsecutive2
  * @param statues

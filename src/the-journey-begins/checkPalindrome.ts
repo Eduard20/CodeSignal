@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * checkPalindrome
  * @param inputString

@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * Section 1: The Journey Begins
  */
