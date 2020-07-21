@@ -4,7 +4,7 @@
  * @return {string}
  */
 
-function reverseInParentheses(inputString: string): string {
+export function reverseInParentheses(inputString: string): string {
   if (inputString.includes('(')){
     return reverseInParentheses(reverseOnce(inputString));
   }
@@ -12,8 +12,8 @@ function reverseInParentheses(inputString: string): string {
 }
 
 function reverseOnce(s: string): string {
-  const regexp = /\(([^()]*)\)/i;
-  let subStr = regexp.exec(s)[1];
+  const regexp: any = /\(([^()]*)\)/i;
+  let subStr: string = regexp.exec(s)[1];
   subStr = subStr.split('').reverse().join('');
   return s.replace(regexp, subStr)
 }

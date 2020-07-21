@@ -3,7 +3,8 @@
  * @param {number} n
  * @return {boolean}
  */
-function isLucky(n: number): boolean {
+
+export function isLucky(n: number): boolean {
   const nArray: string[] = n.toString().split('');
   let firstHalf: number = 0;
   let secondHalf: number = 0;

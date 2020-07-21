@@ -3,7 +3,7 @@
  * @param inputArray
  */
 
-function allLongestStrings(inputArray: string[]): string[] {
+export function allLongestStrings(inputArray: string[]): string[] {
   const result: string[] = [""];
   let count: number = 0;
 

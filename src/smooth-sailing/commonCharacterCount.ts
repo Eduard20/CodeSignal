@@ -5,7 +5,7 @@
  * @return {number} count
  */
 
-function commonCharacterCount(s1: string, s2: string): number {
+export function commonCharacterCount(s1: string, s2: string): number {
   let count: number = 0;
   const s1Array: string[] = s1.split('');
   const s2Array: string[] = s2.split('');

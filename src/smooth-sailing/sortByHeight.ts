@@ -4,7 +4,7 @@
  * @return {Array}
  */
 
-function sortByHeight(a: number[]): number[] {
+export function sortByHeight(a: number[]): number[] {
   const arr: number[] = [];
   const newArr = [];
 
