@@ -9,6 +9,7 @@ function areSimilar(a: number[], b: number[]): boolean {
     return false;
   }
   const tempArr: number[] = [];
+
   for (let i: number = 0; i < b.length; i++) {
     if (a[i] !== b[i]) {
       tempArr.push(i);
