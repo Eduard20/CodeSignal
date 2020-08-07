@@ -4,6 +4,7 @@
  * @param {Array} b
  * @return Boolean
  */
+
 function areSimilar(a: number[], b: number[]): boolean {
   if (a.length !== b.length) {
     return false;

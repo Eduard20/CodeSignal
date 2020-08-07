@@ -3,6 +3,7 @@
  * @param {Array} inputArray
  * @return {number}
  */
+
 function arrayChange(inputArray: number[]): number {
   let moves: number = 0;
 
