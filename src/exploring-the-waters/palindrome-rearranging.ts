@@ -1,3 +1,9 @@
+/**
+ * palindromeRearranging
+ * @param {String} inputString
+ * @return {Boolean}
+ */
+
 function palindromeRearranging(inputString: string): boolean {
   let strObj: any = {};
   if (inputString.length === 1) {
