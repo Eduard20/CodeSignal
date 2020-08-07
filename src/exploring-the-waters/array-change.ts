@@ -4,7 +4,7 @@
  * @return {number}
  */
 
-function arrayChange(inputArray: number[]): number {
+export function arrayChange(inputArray: number[]): number {
   let moves: number = 0;
 
   for (let i: number = 0; i < inputArray.length; i++) {

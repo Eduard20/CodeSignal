@@ -4,7 +4,7 @@
  * @return {Boolean}
  */
 
-function palindromeRearranging(inputString: string): boolean {
+export function palindromeRearranging(inputString: string): boolean {
   let strObj: any = {};
   if (inputString.length === 1) {
     return true;

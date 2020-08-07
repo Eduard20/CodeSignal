@@ -4,7 +4,7 @@
  * @return {Array}
  */
 
-function addBorder(picture: string[]): string[] {
+export function addBorder(picture: string[]): string[] {
   const n: number = picture[0].length + 2;
   const newPicturesList: string[] = [];
   const border = (() => {

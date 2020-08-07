@@ -4,7 +4,7 @@
  * @return {Array}
  */
 
-function alternatingSums(a: number[]): number[] {
+export function alternatingSums(a: number[]): number[] {
   const sum: number[] = [0, 0];
 
   for (let i = 0; i < a.length; i++) {
