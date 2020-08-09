@@ -2,8 +2,8 @@
  * Section 3: Smooth Sailing
  */
 
-export * from './allLongestStrings';
-export * from './commonCharacterCount';
-export * from './isLucky';
-export * from './reverseInParentheses';
-export * from './sortByHeight';
+export * from './all-longest-strings';
+export * from './common-character-count';
+export * from './is-lucky';
+export * from './reverse-in-parentheses';
+export * from './sort-by-height';
