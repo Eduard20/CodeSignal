@@ -3,5 +3,5 @@
  */
 
 export * from './add';
-export * from './centuryFromYear';
-export * from './checkPalindrome';
+export * from './century-from-year';
+export * from './check-palindrome';
