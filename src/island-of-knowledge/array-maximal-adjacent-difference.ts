@@ -3,7 +3,8 @@
  * @param {Array} inputArray
  * @return {Number}
  */
-function arrayMaximalAdjacentDifference(inputArray: number[]): number {
+
+export function arrayMaximalAdjacentDifference(inputArray: number[]): number {
   let maxDifference: number = 0;
 
   for (let i: number = 0; i < inputArray.length; i++) {
