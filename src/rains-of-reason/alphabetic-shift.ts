@@ -1,3 +1,9 @@
+/**
+ * @function alphabeticShift
+ * @param {String} inputString
+ * @return {String}
+ */
+
 function alphabeticShift(inputString: string): string {
   let outputString: string = '';
 
